@@ -1,0 +1,19 @@
+
+a = 10
+b = float(a)
+print("Integer to Float:",b)
+c = 12.75
+d = int(c)
+print("Float to Integer:",d)
+e = 25
+f = str(e)
+print("Integer to String:",f)
+g = "100"
+h = int(g)
+print("String to Integer:",h)
+i = "45.6"
+j = float(i)
+print("String to Float:",j)
+k = 9.8
+l = str(k)
+print("Float to String:",l)
