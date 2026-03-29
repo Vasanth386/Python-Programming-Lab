@@ -1,0 +1,11 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("Pack Example")
+root.geometry("300x200")
+label1 = tk.Label(root, text="Label 1", bg="lightblue")
+label1.pack()
+label2 = tk.Label(root, text="Label 2", bg="lightgreen")
+label2.pack()
+button = tk.Button(root, text="Click Me")
+button.pack()
+root.mainloop()
