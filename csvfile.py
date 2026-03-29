@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv("data.csv")
+print("First 5 rows:")
+print(df.head())
+print("Last 5 rows:")
+print(df.tail())
+print("Information about DataFrame:")
+print(df.info())
+print("Statistical Summary:")
+print(df.describe())
