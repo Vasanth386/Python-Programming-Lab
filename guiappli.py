@@ -1,0 +1,16 @@
+import tkinter as tk
+def show_text():
+    user_text = entry.get()
+    result_label.config(text="You entered: " + user_text)
+root = tk.Tk()
+root.title("Simple GUI App")
+root.geometry("300x200")
+label = tk.Label(root, text="Enter something:")
+label.pack()
+entry = tk.Entry(root)
+entry.pack()
+button = tk.Button(root, text="Submit", command=show_text)
+button.pack()
+result_label = tk.Label(root, text="")
+result_label.pack()
+root.mainloop()
